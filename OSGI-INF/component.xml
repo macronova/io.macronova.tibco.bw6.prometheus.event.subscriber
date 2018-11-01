@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="io.macronova.tibco.bw6.prometheus.event.subscriber">
+   <implementation class="io.macronova.tibco.bw6.prometheus.event.subscriber.ServiceComponent"/>
+   <service>
+      <provide interface="org.osgi.service.event.EventHandler"/>
+   </service>
+   <property name="event.topics" type="String" value="com/tibco/audit/*"/>
+   <property name="event.type" type="String" value="bw"/>
+   <properties entry="OSGI-INF/config.properties"/>
+</scr:component>
