@@ -1,6 +1,8 @@
 # TIBCO BusinessWorks 6 Prometheus Metrics Exporter
 
-<img src="https://macronova.io/wp-content/themes/hnovawp/blog/bwce-grafana-dashboard.png" height="200" width="494" alt="Grafana Dashboard" align="center">
+<p align="center">
+    <img src="https://macronova.io/wp-content/themes/hnovawp/blog/bwce-grafana-dashboard.png" height="400" width="988" alt="Grafana Dashboard">
+</p>
 
 Project allows to expose common performance metrics of BW6 processes and JVM. Statistics can be further pulled by Prometheus from HTTP endpoint. Applied naming convention:
 * JVM metrics follow default Prometheus implementation from `io.prometheus:simpleclient_hotspot:0.5.0` JAR.
